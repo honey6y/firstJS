@@ -1,0 +1,60 @@
+﻿bài 1:
+ cho  array = [1,5,7,8,9,15] sử dụng map hoặc filter
+bài 1.1: // * in ra các số chẵn trong mảng
+bài 1.2: // * in ra các số lẻ  trong mảng
+bài 1.3: // * in ra các số lớn hơn hoặc bằng 5 trong mảng
+bài 1.4:// *in ra các số chia hết cho 5 trong mảng
+bài 1.5:// Tìm các số > 5 của mảng và tăng các giá trị đó lên 1 đơn đơn vị
+bài 1.6: dùng slice để copy mảng từ phần tử số 3 đến phần tử cuối cùng
+bài 1.7: .splice để xóa 1 phần tử trong mảng
+bài 1.8: .push thêm 1 phần tử vào cuối mảng 
+
+
+* dùng vòng for tăng kết quả của các phần tử array lên 2 lần, kết quả sẽ là mảng sau [2,10,14,16,18,30]
+
+
+bài 2: cho arr [1,8,5,2,7,6,9,2,6]
+dùng .sort để sắp xếp mảng tăng dần và giảm dần
+bài 3:
+cho array persons 
+[{
+        name: ‘Trung’,
+        class: ‘Nodemy01’,
+        dateJoin: ‘052-0-2020’,
+age: 20
+}, {
+        name: ‘Phong’,
+class: ‘Nodemy01’,
+dateJoin: ‘06-01-2020’,
+age: 19
+}, {
+        name: ‘Nam’,
+class: ‘Nodemy02’
+dateJoin: ‘25-01-2020’,
+age: 20
+}]
+
+
+3.1 dùng .sort  để sắp xếp mảng object có tuổi tăng dần
+3.2 dùng .sort để sắp xếp mảng theo ngày tham gia của học viên
+3.3 dùng .filter để tìm ra những học viện tham gia trước tháng 2
+3.4 dùng .map để tạo mảng mới, viết hoa toàn bộ Tên học viện : (Trung => TRUNG) 
+        gợi ý : dùng toUppercase để viết hoa
+bài 4: 
+var doan = {
+   name: 'Doan',
+    age: 22,
+    salary: 1000
+}
+var trung = {}
+  Đoàn là 1 master javascript lương 1000 USD, Trung idol Đoàn, 
+  quyết định clone mọi thứ từ Đoàn
+Hãy giúp Trung clone mọi thuộc tính từ object doan.
+ Để phân biệt thì Trung sẽ thêm 1 property: clone = true
+ (Lưu ý: thay đổi object k làm ảnh hưởng tới object doan)
+ {
+    name: 'Trung',
+    age: 22,
+    salary: 1000,
+    clone: true 
+ }

@@ -1,0 +1,84 @@
+...array                                    liệt kê các phần tử trong array
+...object                                   liệt kê các cặp key:value trong object
+
+push                                        thêm data vào cuối array
+pop                                         xóa phần tử cuối cùng của array
+
+unshift                                     chèn data vào đầu array
+shift                                       xóa data đầu tiên trong array
+
+splice                                      thêm, bớt, sửa data ở vị trí bất kì trong array
+splice(start, count delete, ...add)
+    start                                   vị trí bắt đầu làm việc
+    count delete                            số lượng xóa tính từ start
+    ...add                                  data thêm mới tính từ start
+
+slice(start, stop)                          coppy array từ start đến stop, không tính CHỈ SỐ stop
+                                            trả về 1 array mới
+
+includes(value)                             kiểm tra sự tồn tại của value trong array
+    true - có
+    false - không có
+
+indexOf(value, index)                       trả về vị trí của phần tử ĐẦU TIÊN === value
+                                            trả về -1 nếu không có
+                                            value - giá trị tìm kiếm
+                                            index - vị trí bắt đầu tìm kiếm
+
+lastIndexOf(value, index)                   trả về vị trí của phần tử CUỐI CÙNG === value
+                                            trả về -1 nếu không có
+                                            tìm kiếm từ cuối về đầu
+                                            value - giá trị tìm kiếm
+                                            index - vị trí bắt đầu tìm kiếm
+
+join(seperator)                             gộp tất cả các phần tử trong array thành 1 string và trả về 1 string mới
+                                            seperator - ký tự ngăn cách các phần tử khi gộp string
+
+reverse()                                   đảo ngược thứ tự array
+                                            tác động lên array gốc
+
+valueOf()
+
+================================================================================================
+
+filter                                      trả về array mới chứa các phần tử thỏa mãn điều kiện lọc
+    array.filter(function(value, index) {
+        //code lọc
+        //value - giá trị phần tử đang xét trong array
+        //index - vị trí phần tử đang xét trong array
+    })                                      return(true) - giữ lại
+                                            return(false) - loại bỏ
+
+map()
+var newArr = array.map(function(value, index)) {
+        //value - giá trị phần tử đang xét trong array
+        //index - vị trí phần tử đang xét trong array
+        return any;
+}       map trả về 1 mảng mới chứa các giá trị return
+        không ảnh hưởng đến mảng ban đầu
+        
+
+find()
+find(function(value, index) {})             trả về data ĐẦU TIÊN thỏa mãn điều kiện
+                                            không tìm được thì trả về undefine
+                                            không thực hiện trên phần tử rỗng
+                                            dùng với data đơn giản (data nguyên thủy: số, string,...)
+
+
+findIndex()
+findIndex(function(value, index) {})        trả về vị trí ĐẦU TIÊN thỏa mãn điều kiện
+                                            không tìm được thì trả về -1
+                                            không thực hiện trên phần tử trống
+                                            dùng với data đơn giản (data nguyên thủy: số, string,...)
+
+reduce()
+array.reduce((total, value, index) {        trả về total
+    //code                                  không có giá trị khởi tạo total (initial) thì nhận value[0] làm giá trị khởi tạo
+}, initial total)                           value - giá trị phần tử đang xét trong array
+                                            index - vị trí phần tử đang xét trong array
+
+sort()
+sort(function(after, before) {              after - phần tử đứng sau
+                                            before - phần tử đứng trước
+})                                          nếu return âm thì đảo chỗ
+                                            nếu return dương hoặc 0 thì giữ nguyên

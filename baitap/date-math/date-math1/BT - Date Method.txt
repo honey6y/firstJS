@@ -1,0 +1,33 @@
+﻿Bài 1: 
+Hãy cho biết hôm nay là thứ mấy, ngày, tháng, năm nào
+
+
+Bài 2: var sinhNhat = ‘10/5/2000’
+a, năm nay bao nhiêu tuổi
+b, Ngày sinh nhật tiếp theo vào thời điểm nào?
+c, Mừng thọ 83 tuổi là vào ngày tháng năm nào?
+
+
+Bài 3:
+a, Hãy tạo ra date của ngày đầu tuần này
+b,Hãy tạo date của ngày cuối tuần này
+c,hãy tạo date của ngày đầu tháng này
+d,Hãy tạo date của ngày cuối tháng này
+e,Hãy cho biết tháng này có bao nhiêu ngày
+
+
+Bài 4: Tạo ra ngày 20/10/3000
+a, Cách hiện tại bao nhiêu năm
+b, hôm đó là thứ mấy
+c, sau 5 ngày thì la thứ mấy
+Bài 5: 
+Cho var phucBirthday = ‘26-11-1992’
+Cho var cuongBirthday= ‘27-11-1994’
+a,  Đổi định dạng ngày thành ‘1992-11-26’
+b, Quy đổi về cả 2 về object date
+c, So sánh xem phuc hay cuong lớn tuổi hơn
+d, Hỏi sau 100 ngày từ lúc phucBirthday là ngày hôm nào, thứ mấy?
+        gợi ý: dùng setDate(getDate + 100
+        dùng hàm getDay để tìm ra thứ  biết rằng:
+        0: chủ nhật
+        1: thứ 2  ..

@@ -1,0 +1,83 @@
+﻿Bài 1: In ra tất cả số chẵn từ 1 đến 100.
+
+
+Bài 2: Cho mảng arr2 = [1, 4, 5, 2, 7, 9, 4].
+Hãy sắp xếp mảng theo thứ tự tăng dần và giảm dần
+
+
+Bài 3: Cho chuỗi str = ‘dotimraduockytucantim’
+Hãy kiểm tra xem chuỗi có chứa ký tự ‘k’ không. Nếu có in ra + vị trí của ký tự trong mảng
+
+
+Bài 4: Cho 1 số tự nhiên n. Viết chương trình kiểm tra n là số lẻ hay chẵn.
+Nếu number là số chẵn , In ra "Even number" và "Done".
+Ngược lại, in "Done" ra màn hình.
+
+
+Bài 5: Cho 3 số a, b và c. hoàn thành chương trình để in ra số lớn nhất.
+
+
+Bài 6: Viết chương trình, người dùng nhập một năm bất kỳ và in ra năm đó có phải là năm nhuận hay không.
+
+
+Bài 7: Cho 1 số từ 0 đến 6. Viết chương trình để in ra thứ trong tuần
+
+number: 0 => Thứ trong tuần: Sunday
+number: 1 => Thứ trong tuần: Monday
+number: 2 => Thứ trong tuần: Tuesday
+number: 3 => Thứ trong tuần: Wednesday
+number: 4 => Thứ trong tuần: Thursday
+number: 5 => Thứ trong tuần: Friday
+number: 6 => Thứ trong tuần: Saturday
+
+
+
+
+
+
+Ví dụ:
+Cho number = 0; in ra: Sunday.
+Cho number = 4; in ra: Thursday
+Cho number = 6; in ra: Saturday
+
+
+Bài 8: Viết chương trình javascript để sắp xếp 4 số (a, b, c, d). Và in ra kết quả. 
+
+Ví dụ:
+Cho a = 3; b = 2; c= 9; d= -1; In ra "9,3,2,-1";
+Cho a = 3; b = 3; c= 8; d= -5; In ra "8,3,3,-5";
+Đầu vào: a, b, c, d
+Đầu ra: sắp xếp 4 số (a, b, c, d). Và in ra kết quả. 
+
+
+Bài 9: Cho 1 số n . Viết một chương trình để tính toán và in ra màn hình giai thừa của số đã nhập (n!)
+
+Ví dụ:
+Với n = 5, đầu ra được in ra màn hình là  "120"
+Vì 5! = 5 * 4 * 3 * 2 * 1 = 120
+Với n = 3, đầu ra được in ra màn hình là  "6"
+Vì 3! = 3 * 2 * 1 = 6
+Đầu vào: 1 số nguyên n nhập từ bàn phím
+Điều kiện tiền đề:
+1 ≤ n ≤ 20
+Đầu ra: giai thừa của số đã cho n
+
+
+Bài 10: Cho 1 mảng các số tự nhiên. In ra các số trong mảng đó với điều kiện :
+Bỏ qua số đó nếu số đó chia hết cho 4
+Thoát vòng lắp nếu số đó chia hết cho cả 4 và 3
+
+
+
+
+
+
+
+
+Bài 11: Cho 1 chuỗi str_input. Viết chương trình đảo ngược chuỗi và in ra kết quả
+
+Ví dụ:
+Cho: str_input = "program"; in ra: "margorp"
+Cho: str_input = "data"; in ra: "atad"
+Đầu vào: str_input 
+Đầu ra: đảo ngược chuỗi và in ra kết quả

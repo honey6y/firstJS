@@ -1,0 +1,29 @@
+B3	120p
+
+	1	-	Prop là gì, state là gì
+	2	-	UseEffect là gì
+	3	- 	Tham chiếu (referrence type) là gì. Cách để copy array, object
+	4	-	Hãy dùng React tạo ra giao diện todoList có chức năng thêm, sửa, xóa
+
+
+B6	
+	1	-	Cho 2 array
+			array1 = [3, 2, 1, 6, 'a'] 
+			array2 = [9, 5, 0, 'h', 3, 5, 4, 'c']
+			
+	a, hãy tạo ra array3 mới chứa gồm 2 phần tử đầu của array1 và 3 phần tử cuối của array2
+	b, hãy tạo ra array4 chứa các số chẵn của array1 và array2
+	c, số lớn nhất có thể tạo ra từ các chữ số trong array4 là bao nhiêu? Mỗi phần chỉ xuất hiện 1 lần
+	
+
+	2	- 	cho array ['nguyen thanh tung', 'nguyen van nam', 'vu thanh trung', 'hoang tu linh']
+	a, sắp xếp array tăng dần
+	b, hãy tạo array mới chỉ chứa những người họ 'nguyen'
+	
+	3	-	cho array [1,3,5,1,2,5,1,5,1,6,2,9, 1]
+	a, tính tổng các phần tử trong array
+	b, tính tích các phần tử trong array
+	c, số 5 nằm ở những vị trí nào trong array
+	d, phần tử nào trong array lặp lại nhiều nhất
+	e, hãy tạo ra array mới chứa các phần tử không trùng nhau
+	

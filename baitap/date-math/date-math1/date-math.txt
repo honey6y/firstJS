@@ -1,0 +1,56 @@
+new Date()              Tạo ra date object của thời điểm hiện tại
+
+new Date(dateString)    Tạo ra date object của thời điểm chỉ định
+                        dateString định dạng  mm/dd/yyyy --- yyyy/mm/dd
+
+new Date(yyyy, mm, dd, hh, min, sec)     
+                        Tạo ra date theo thông số chỉ định                   
+                        lưu ý tháng đếm từ 0
+
+new Date(milisec)       Tạo ra date lấy gốc thời gian là 1/1/1970                  
+                        khi tính toán vs date thì quy về milisec
+
+============================================================================
+
+truy vấn date
+
+getDate()               Lấy ngày
+
+getMonth()              Lấy tháng ( 0 == tháng 1)
+
+getFullYear()           Lấy năm
+
+getDay()                Lấy thứ trong tuần (0 == chủ nhật)
+
+==============================================================================
+
+ghi đè date
+
+setFullYear()           ghi đè năm, tháng, ngày
+                        có cộng dồn, tháng đếm từ 0
+
+setMonth()              ghi đè tháng, ngày
+                        có cộng dồn, tháng đếm từ 0     
+
+setDate()               ghi đè ngày
+
+setHours()              ghi đè giờ, phút giây
+
+==========================================================================
+
+Math.abs(value)         trả về giá trị tuyệt đối của value
+
+round(value)            làm tròn value
+                        mốc làm tròn 0.5
+
+ceil(value)             làm tròn lên
+
+floor(value)            làm tròn xuống
+
+toFixed(number)         làm tròn 'number' số sau dấu ,
+
+max(...number)          trả về số lớn nhất trong đầu vào
+
+min(...number)          trả về số nhỏ nhất trong đầu vào
+
+pow(x, y)               x ** y

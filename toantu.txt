@@ -1,0 +1,53 @@
++
+number + number                         tính toán bình thường
+1 vế !number                            ghép chuỗi thành string
+
+- * / %
+                                        tự động ép kiểu về number
+string dạng chữ                         không thể ép kiểu về number
+object                                  trở thành NaN
+array
+...
+==========================================================================
+
+>, <, >=, <=
+tự động ép kiểu number để so sánh khi 2 vế có dạng number hoặc string dạng number
+string dạng chữ không thể so sánh với number-tất cả đều là false
+so sánh string (tất cả các dạng: số, chữ,...) = so sánh mã ascii
+
+==      !=                                so sánh giá trị, ép kiểu về number
+===     !===                              so sánh giá trị, so sánh cả kiểu dữ liệu
+
+
++=, -=, *=, /=, %=
+
+number++, ++number
+
+number--, --number
+
+number**x            number mũ x
+
+//
+
+3 ngôi - ternary operator
+(condition)     ?    case1(true) : case2(false);
+
+if () {} else {};
+
+if () {} else if () {} else {};
+
+&&  ||
+
+switch (value) {                                    value khớp với value nào thì chạy code value đó
+    case value1:                                    không khớp value nào thì chạy default
+        code value1                                 mỗi case đều NÊN có break
+        break;
+
+    case value2:
+        code value2
+        break;
+
+    default:
+    code default
+        break;
+}

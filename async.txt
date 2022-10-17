@@ -1,0 +1,5 @@
+- sync: đồng bộ
+- Async: bất đồng bộ
+
+//setTimeout
+//setInterval

@@ -1,0 +1,20 @@
+1	-	Cho 2 array
+			array1 = [3, 2, 1, 6, 'a'] 
+			array2 = [9, 5, 0, 'h', 3, 5, 4, 'c']
+			
+	a, hãy tạo ra array3 mới chứa gồm Phần tử đầu tiên (phần tử chính giữa array1), phần tiếp theo (phần tử chính giữa array2)
+		còn lại là các phần tử sót lại của array1 , tiếp đó là phần tử của array2  (ĐỀ KHÓ)
+	b, hãy tạo ra array4 chứa các phần tử chữ cái của array1 và array2
+	c, sắp xếp phần tử array4 tăng dần theo thứ tự bảng chữ cái
+	
+
+	2	- 	cho array ['nguyen thanh trung', 'nguyen van nam', 'vu thanh trung', 'hoang tu linh']
+	a, sắp xếp array tăng dần theo ĐỘ DÀI CHUỖI
+	b, hãy tạo array mới chỉ chứa những người tên trung
+	
+	3	-	cho array [1,27,5,21,5,3,1,5,9,6,5,9, 1]
+	a, tính tổng các phần tử số lẻ trong array
+	b, tính tích các phần tử (mà chia hết cho 3) trong array
+	c, số 1 nằm ở những vị trí nào trong array
+	d, phần tử nào trong array lặp lại nhiều nhất
+	e, hãy tạo ra array mới chứa các phần tử trùng nhau

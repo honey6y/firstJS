@@ -1,0 +1,21 @@
+if ( điều kiện ) {                              code chạy 1 lần duy nhất
+    code                                        nếu sai thì bỏ qua
+}
+
+while (điều kiện) {                             code chạy đến khi nào điều kiện sai thì thôi
+    code                                        
+}                                               
+
+do {                                            code chạy đến khi nào điều kiện sai thì thôi
+    code                                        vì do trước rồi mới kiểm tra điều kiện nên code chạy ít nhất 1 lần
+} while(điều kiện)
+
+break                                           để kết thúc vòng lặp ngay lập tức
+continue                                        bỏ qua code bên dưới của vòng lặp hiện tại, sang vòng lặp mới
+
+
+Object.keys(objectName)                        trả về array chứa tất cả các key trong objectName
+
+for (let key in object)                         duyệt qua tất cả các key của object từ đầu đến cuối / chỉ số trong mảng
+
+for (let value in array)                       duyệt qua tất cả các GIÁ TRỊ CỦA PHẦN TỬ (VALUE) trong array

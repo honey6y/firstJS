@@ -1,0 +1,156 @@
+﻿Bài 0: 
+var listUser = [{
+    username: 'kienlinh', password: 'test123', email: 'kienlinh@gmail.com',
+    username: 'thaihoang', password: 'test123', email: 'thaihoang@gmail.com',
+    username: 'minhtu', password: 'test123', email: 'minhtu@gmail.com',
+}]
+
+
+// a,   user dang ky tài khoản bằng email và password
+//      hãy đăng ký tài khoản cho user biết
+
+
+// a1,  kiểm tra sự hợp lệ của email người dùng cung cấp biết
+//      mỗi email chỉ đăng ký được 1 tài khoản, 
+//      email phải có dạng xxxxxx...@xxxx.xx (trước "@" phải có tối thiểu 6 ký tự, giữa "@" và dấu "." có 3 - 6 ký tự, sau dầu "." có từ 2 - 4 ký tự)
+
+
+// a2   kiểm tra password hợp lệ 
+//      password tối thiểu 6 ký tự
+//      email không chứa password bên trong 
+//      vd email thaihoang@gmail.com,   password: thaihoang là không hợp lệ 
+
+
+// a3   hãy tự động tạo username cho user
+//      username là các ký tự trước dấu @ trong email
+
+
+// b    user thực hiện đăng nhập bằng email, password
+//      kiểm tra xem email, password nhập vào có khớp hay không
+//      nếu nhập sai email báo sai email
+//      nếu đúng email, sai pass báo sai pass
+
+
+// c    user thực hiện đổi password phải nhập lại password cũ và password mới
+//      nếu nhập đúng password cũ thì mới sửa password
+//      password mới tối thiểu 6 ký tự
+//      email không chứa password mới bên trong
+//      password cũ không chứa password mới 
+
+
+// d    user đăng nhập sai 3 lần sẽ bị chặn đăng nhập trong 1 ngày
+//      hãy thêm thời điểm kết thúc chặn đăng nhập vào user (blockDate)
+//      user bị chặn đăng nhập thì không thể đăng nhập dù nhập đúng email, pass (trả thông báo bị chặn đăng nhập đến blockDate)
+
+
+Bài 1 : 
+var sanPham = [{ten :"Túi xách",gia:10000,soLuong:100},
+{ten :"dày",gia:15000,soLuong:30},
+{ten :"Dép",gia:12000,soLuong:30},
+{ten :"Ví",gia:101000,soLuong:20}];
+
+
+var order = [
+    { listOder: [{oderName: 'Túi xách', total: 3 }] },
+    { listOder: [{oderName: 'Dép', total: 5 }] },
+    { listOder: [{oderName: 'Ví', total: 10 }] },
+]
+
+
+1. Tính tổng số lượng các sản phẩm trên  . 
+2.  Xếp các sản phẩm theo giá tăng dần . 
+3. Tính tổng tiền của từng sản phẩm
+4. Tính tổng tiền của từng order
+5. cập nhật lại số lượng của từng sản phẩm
+6. user thực hiện tìm kiếm sản phẩm theo tên, hãy trả về tất cả sản phẩm có tên tương tự
+7. Bài 3:
+var orderData = [
+    { id: 1, listProduct: [ {idSP: 1, buy: 2}, {idSP: 2, buy: 1}]},
+    { id: 2, listProduct: [ {idSP: 1, buy: 1}, {idSP: 2, buy: 1}]},
+]
+
+
+var productData = [
+    {idSP: 1, price: 500000, store: 100},
+    {idSP: 2, price: 300000, store: 200},
+    {idSP: 3, price: 200000, store: 300},
+]
+var income = 0
+a, hãy update lại số lượng hàng tồn kho của shop
+b, hãy thêm tổng tiền cho từng order 
+c, trả về tổng doanh thu của shop dựa trên đầu vào 
+,d, user mua thêm 1 order 
+        { id: 2, listProduct: [ {idSP: 1, buy: 1}, {idSP: 2, buy: 1}, {idSP: 3, buy:3}]},
+//      hay cập nhật doanh thu cho từng shop và cập nhật tổng tiền cho đơn hàng
+
+
+Bài 3:
+var khachHang = [
+//     {ten:'nguyen van nam', gioiTinh: 'nam', diemTichLuy: 125, dichVuDangKy: 'A'},
+//     {ten:'dao linh huong', gioiTinh: 'nu', diemTichLuy: 170, dichVuDangKy: 'B'},
+//     {ten:'le dinh hieu', gioiTinh: 'nam', diemTichLuy: 115, dichVuDangKy: 'C'},
+//     {ten:'nguyen tien dat', gioiTinh: 'nam', diemTichLuy: 75, dichVuDangKy: 'B'},
+//     {ten:'nguyen van quy', gioiTinh: 'nam', diemTichLuy: 55, dichVuDangKy: 'A'},
+//     {ten:'tran ngoc diep', gioiTinh: 'nu', diemTichLuy: 105, dichVuDangKy: 'B'},
+//     {ten:'lai the anh', gioiTinh: 'nam', diemTichLuy: 55, dichVuDangKy: 'C'},
+//     {ten:'tran thi ngoc tram', gioiTinh: 'nu', diemTichLuy: 65, dichVuDangKy: 'C'},
+// ]
+
+
+// var dichVu = [
+//     {ten: 'A', khuyenMai: 0.2, giaTri:250},
+//     {ten: 'B', khuyenMai: 0.18, giaTri:210},
+//     {ten: 'C', khuyenMai: 0.15, giaTri:200},
+// ]
+
+
+var hangHoa = [
+        {id: 1, product:'P1 ', price: 259000, tonKho: 100},
+        {id: 2, product: 'P1', price: 129000, tonKho: 230},
+        {id: 3, product: 'O2', price: 749000, store: 130},
+        {id: 4, product: 'O6', price: 499000, store: 240},
+] 
+a ) in ra danh sách các khách hàng có khả năng đăng ký thẻ VIP với điều kiện điểm tích lũy lớn hơn 100 . .
+b ) in ra danh sách khách hàng theo dịch vụ mà từng người đăng ký .
+c ) in ra danh sách các khách hàng nam .
+in ra danh sách các khách hàng nữ .
+d ) tính giá sản phẩm theo từng khách hàng .  Nếu số lượng người dùng cần mua quá số lượng còn trong kho thì in ra “ Trong kho không đủ sản phẩm , vui lòng mua ít hơn “ . 
+Ví dụ :  Nguyễn Văn A  , đăng ký dịch vụ A ( khuyến mãi = 20%) và mua sản phẩm O2 với số lượng 10 cái . thì giá là 749000*10 -( 749000*10 )*0.2.
+
+
+Bài 4: 
+var  hocSinh = [
+{ name:'A', age:18,queQuan:”Hà Nội”,maVung:”V001”},
+        { name:'B', age:18,queQuan:”Tây Bắc”,maVung:”V002”},
+        { name:'C', age:19,queQuan:”Hưng Yên”,maVung:”V003”},
+{ name:'D', age:18,queQuan:”Thái Bình”,maVung:”V003”},
+]
+var diemVung = [
+{maVung:”V001”,ten:[”Hà Nội”],diem:2},
+{maVung:”V002”,ten:[“Hà Giang”,”Tây Bắc”,”Mù Cang Trải”],diem:2.5},
+{maVung:”V003”,ten:[”Thái Bình”,”Hưng Yên”],diem:1},
+]
+
+
+
+
+
+
+var diemThi= [
+{name:”A”, Toan:9, Van:6,anh:7},
+{name:”B”, Toan:1, Van:8,anh:9},
+{name:”C”, Toan:7, Van:6,anh:5},
+{name:”D”, Toan:7, Van:5,anh:7},
+]
+var truong = [
+{ten:”Chu Văn An”,diemChuan:25},
+{ten:”Amsterdam”,diemChuan:27},
+{ten:”Nguyễn Du”,diemChuan:23},
+]
+a ) truy vấn điểm vùng . theo mã Vùng . 
+b ) truy vấn điểm vùng theo tên của học Sinh .
+c ) tính điểm thi . theo tên của học sinh .
+Biết rằng điểm tổng = Điểm Toán + Điểm Văn + Điểm Anh + Điểm Vùng .
+d ) cho biết học sinh đỗ tốt nghiệp hay không  . 
+Biết rằng để tốt nghiệp  điểm tổng > = 15 và không có môn nào < = 1.. 
+e ) Cho biết học sinh đã đủ đậu trường nào. them key Univer cho mỗi học sinh. điều kiện phải tốt nghiệp đã

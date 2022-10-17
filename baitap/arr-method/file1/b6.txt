@@ -1,0 +1,37 @@
+1 	+Viết function có đầu vào là 1 array
+a, Function trả ra tổng các phần tử trong array
+b, Function trả ra tích các phần tử trong array
+
+2	viết function có đầu vào là 1 array chứa các số
+	a, Function trả ra số lớn nhất trong array 
+ 
+
+3	viết function có đầu vào là 1 array
+	Function trả ra array mới với thứ tự ngược lại với array ban đầu
+
+4 	viết function có đầu vào là 1 number và 1 array chứa số
+	Function trả ra số lần number lặp lại trong array
+
+5 	viết function có đầu vào là 1 string
+	Thay thế tất cả dấu cách ‘ ‘ trong string bằng dấu ‘-‘ và trả ra string mới
+
+6: 	Viết 1 function kiểm tra số nhập vào có phải là số nguyên tố hay không?
+
+7	cho  array = [1,5,7,8,9,15] 
+
+// * in ra các số chẵn trong mảng
+// * in ra các số lẻ  trong mảng
+// * in ra các số lớn hơn hoặc bằng 5 trong mảng
+// *in ra các số chia hết cho 5 trong mảng
+// Tìm các số >5 của mảng và tăng các giá trị đó lên 1 đơn đơn vị
+copy mảng từ phần tử số 3 đến phần tử cuối cùng
+xóa 1 phần tử vị trí bất kỳ trong mảng
+thêm 1 phần tử vào cuối mảng 
+
+8	var arr2 = ['4', '6', 1,2,3,5, 'y', 't', 5]
+// viết function có đầu vào là 1 arr return tổng các number và string number trong array
+
+9	var list1 = [3,6,7,9,5]
+	var list2 = [3,5,7,8,6,6,7]
+// viết function có đầu vào là 2 array và return tổng 2 array đầu vào
+

@@ -1,0 +1,62 @@
+Bài 1.
+cho array = [1,6,8,7,6,9]
+a, array trên có bao nhiêu phần tử
+b, hãy in ra phần tử đầu tiên và phần tử cuối cùng trong array
+c, hãy thêm số 5 vào cuối array
+d, hãy thay đổi giá trị của phần tử đầu tiên và cuối cùng trong array thành số 10
+
+Bài 2, 
+cho object user = {
+	ten: ‘tung’,
+	tuoi: 20
+}
+
+a, hãy in ra tên và tuổi của user
+b, hãy thêm cho user họ là ‘nguyễn’
+c, hãy thay đổi tuổi thành 30
+
+Bài 3,
+cho object user = {
+	ten: ‘tung’,
+	tuoi: 20
+	banBe:[‘vy’,’tung’,’tuan’]
+	diaChi:{
+tinh: ‘HCM’,
+quan:’Q1’
+}
+}
+a, in ra array bạn bè
+b, người bạn cuối cùng tên là gì
+c, in ra object dia chi của user
+d, hãy tạo string giới thiệu bản thân cho object user trên theo mẫu sau
+‘tên tôi là …, tôi .. tuổi, tôi ở … tỉnh …’
+e, hãy thêm đường = ‘nguyễn tuân’ vào địa chỉ của user
+f, hãy thêm ‘thai’ vào danh sách bạn của user
+
+Bài 4,
+var age = 20,
+var name = ‘tung’
+hãy tạo ra string greet theo mẫu 
+
+`
+xin chao, tôi là … , tôi …. tuổi.
+tên bạn là gì?
+`
+Bài 5
+
+Cho Array = [10,20,50,99,58,70,60]
+hãy đảo chỗ của phần tử đầu và phần tử cuối trong array 
+// ketqua [60,20,50,99,58,70,10]
+
+
+Bài 6, 
+cho array = [3,5,4,9,8,1,10]
+a, hãy tính tổng của phần tử đầu và phần tử cuối // 3 + 10
+b, hãy thêm số 20 vào cuối array trên và tính lại tổng của phần tử đầu và phần tử cuối 
+// 3 + 20
+
+Bài 7, cho array2 = [1,6,8,7,10 , [6,8,7,4,3,5] , 3]
+a, tính tổng của phần tử đầu và phần tử cuối trong array2 và array con 
+// 1 + 3 + 6 +5
+b, hãy thêm số 10 vào cuối array con và tính lại tổng trên
+

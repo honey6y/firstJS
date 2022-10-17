@@ -1,0 +1,236 @@
+﻿Bài 1 :   
+var shop = [
+        {id: 1, product:'Dày da  ', price: 259000, store: 100},
+        {id: 2, product: 'Dép lào', price: 129000, store: 230},
+        {id: 3, product: 'Dày cao gót', price: 749000, store: 130},
+        {id: 4, product: 'Dép tông', price: 499000, store: 240},
+] 
+( price là giá ; store : số lượng còn lại ) 
+a ) Viết function tìm kiếm sản phẩm theo tên  . Nếu không tìm thấy thì thì in ra “Không tìm thấy “ 
+b ) Viết function tính tổng số sản phẩm có trong shop.
+c ) Viết function tính tiền sản phẩm và cập nhật số lượng sản phẩm còn lại trong shop . 
+
+đầu vào là chuỗi string tên sản phẩm , và số lượng mua . 
+Nếu số sản phẩm còn lại trong shop  =< 0 thì in ra “ Shop đã hết SP bạn cần mua “ 
+
+Bài 2 : 
+var  iphone= [
+{id: 1, product:'Iphone 12 ', price: 9990000, store: 120, color:’red’},
+{id: 2, product:'Iphone 12 ', price: 12590000, store: 121, color:’black’},
+{id: 3, product:'Iphone 12 ', price: 13590000, store: 120, color:’green’},
+{id: 4, product:'iphone 13 Pro', price: 17900000, store: 230 , color:’black’},
+{id: 5, product:'iphone 13 Pro', price: 19900000, store: 230 ,color:’red’},
+{id: 6, product:'iphone 13 Pro', price: 14900000, store: 230,color:’blue’},
+{id: 7, product:'iphone 13', price: 12490000, store: 220, color:’black’},
+{id: 8, product:'iphone 13', price: 24900000, store: 220, color:’while’},
+{id: 9, product:'iphone 13', price: 24900000, store: 220, color:’blue’}
+] 
+
+a ) Viết function tìm sản phẩm tìm kiếm sản phẩm theo tên . nếu không tìm thấy thì in ra “ Không tìm thấy “
+b ) viết function tìm kiếm sản phẩm theo tên và theo màu .   nếu không tìm thấy thì in ra “ không tìm thấy  “ .
+c ) Viết function tìm kiếm sản phẩm theo khoảng giá .10-15tr , 
+Ví dụ người dùng tìm kiếm sản phẩm từ 10 đến 15 tr thì in ra các sản phẩm từ 10 đến 15 tr ..
+
+
+
+
+Bài 3  : 
+var TFT= [
+{ name:'yasuo', price: 5, toc:[‘Độc hành’,”Anh em”]},
+{ name:'yone', price: 5, toc:[‘Độc hành’,”Anh em”]},
+{ name:'lux', price: 7, toc:[‘Học giả’,”Tối thượng”]},
+{ name:'Braum', price: 4, toc:[‘Vệ sĩ’,”Băng đảng”]},
+{ name:'cho’gat’, price: 3, toc:[‘Khổng lồ’,”Đột biến”]},
+{ name:'Galio', price: 5, toc:[‘Khổng lồ’,”vệ sĩ”]},
+{ name:'Ahri', price: 4, toc:[‘Pháp sư’,”Băng đảng”]},
+{ name:'Diana', price: 1, toc:[‘Băng đảng’,”Sát thủ”]},
+]
+a ) Viết function tìm tướng theo Tên . Nếu không tìm thấy thì in ra “ Không tìm thấy tướng bạn cần “ 
+b ) Viết function theo giá tiền .  Nếu không tìm thấy thì in ra “ Không tìm thấy tướng bạn cần “ 
+c ) Viết function tìm kiếm tướng theo tộc . “ Không tìm thấy in ra không tìm thấy  “ 
+
+
+Bài 4 :  
+var LOL =[
+{ name:'yasuo', power: 50000,viTri:’Mid’},
+{ name:'aphelios', power: 43000,viTri:”ADC”},
+{ name:'Yone', power: 45000,viTri:’Mid’},
+{ name:'Vayle', power: 12000,viTri:”ADC”},
+{ name:'Nasus', power: 30000,viTri:’Top’},
+{ name:'Jayce', power: 20000,viTri:”Top”},
+{ name:'LeeSin', power: 41000,viTri:’Jungle’},
+{ name:'Nunu', power: 15000,viTri:”Jungle”},
+{ name:'Threst', power: 23000,viTri:’SP’},
+{ name:'Lulu', power: 25000,viTri:”SP”},
+]
+a ) Viết function tìm tướng theo tên .  Nếu không tìm thấy thì in ra “ Không tìm thấy tướng của bạn  “ 
+b ) Viết function tìm tướng theo Vị trí .  Nếu không tìm thấy thì in ra “ Không tìm thấy tướng của bạn  “ 
+c )  Viết function tính tổng sức mạnh của 2 tướng bất kỳ  . 
+d ) Viết function tính tổng sức mạnh của một đội 5 tướng. 
+
+
+Bài 5 : 
+var  hocSinh = [
+{ name:'A', age:18,queQuan:”Hà Nội”,maVung:”V001”},
+{ name:'B', age:18,queQuan:”Tây Bắc”,maVung:”V002”},
+{ name:'C', age:19,queQuan:”Hưng Yên”,maVung:”V003”},
+{ name:'D', age:18,queQuan:”Thái Bình”,maVung:”V003”},
+]
+
+var diemVung = [
+{maVung:”V001”,ten:[”Hà Nội”],diem:2},
+{maVung:”V002”,ten:[“Hà Giang”,”Tây Bắc”,”Mù Cang Trải”],diem:2.5},
+{maVung:”V003”,ten:[”Thái Bình”,”Hưng Yên”],diem:1},
+]
+
+var diemThi= [
+{name:”A”, Toan:9, Van:6,anh:7},
+{name:”B”, Toan:1, Van:8,anh:9},
+{name:”C”, Toan:7, Van:6,anh:5},
+{name:”D”, Toan:7, Van:5,anh:7},
+]
+var truong = [
+{ten:”Chu Văn An”,diemChuan:25},
+{ten:”Amsterdam”,diemChuan:27},
+{ten:”Nguyễn Du”,diemChuan:23},
+]
+a ) Viết function truy vấn điểm vùng . theo mã Vùng . 
+b ) Viết function truy vấn điểm vùng theo tên của học Sinh .
+c ) Viết function tính điểm thi. theo tên của học sinh .
+Biết rằng điểm tổng = Điểm Toán + Điểm Văn + Điểm Anh + Điểm Vùng.
+d ) Viết function cho biết học sinh đỗ tốt nghiệp hay không. 
+Biết rằng để tốt nghiệp  điểm tổng > = 15 và không có môn nào < = 1.. 
+e ) Viết function cho biết học sinh đã đỗ trường nào  . theo tên của học sinh. 
+
+
+
+
+// Bài 6: 
+// Cho array = [1,4,3,2,5,7,10,5,9,11,23,35,71,43] 
+// -) Hãy viết 1 function in ra dãy các số nguyên tố và vị trí của nó trong array  
+// -) Tính tổng các số nguyên tố trong array  và trung bình cộng của các số trong array 
+// -) Viết function để tính tích của các số nguyên tố trong dãy array
+
+
+// Bài 7: 
+// Cho array1 = [1,5,2,6,2,8,9,4,6,2,3,5,7,9,3,2,75,6,4,3,2,4,12];
+// Cho array2 = [4,6,3,8,5,7,4,1,2,9,6,5,3,1,5,2,7,6,8,6,3,2,1,5];
+// Cho array3 = [2,5,1,6,3,8,4,10,5,3,1,6,5,2,6,4,8,9,2,1,5,8,7,12];
+// a) Viết function Tính tổng, tích, giá trị trung bình cộng của cả 3 array
+//b) Viết function Tính tích của các phần tử từ đầu đến vị trí số 2 xuất hiện lần thứ 3 của array1 với tích phần tử từ đầu đến vị trí có giá trị là 5 xuất hiện lần 2 của array2
+//c) Viết function Tính tích, tính tổng của các phần tử từ vị trí số 2 xuất hiện lần đầu đến vị trí số 2 xuất hiện lần thứ 4 của cả 3 array . 
+
+
+Bài  8 
+
+
+var khachHang = [
+//     {ten:'nguyen van nam', gioiTinh: 'nam', diemTichLuy: 125, dichVuDangKy: 'A'},
+//     {ten:'dao linh huong', gioiTinh: 'nu', diemTichLuy: 170, dichVuDangKy: 'B'},
+//     {ten:'le dinh hieu', gioiTinh: 'nam', diemTichLuy: 115, dichVuDangKy: 'C'},
+//     {ten:'nguyen tien dat', gioiTinh: 'nam', diemTichLuy: 75, dichVuDangKy: 'B'},
+//     {ten:'nguyen van quy', gioiTinh: 'nam', diemTichLuy: 55, dichVuDangKy: 'A'},
+//     {ten:'tran ngoc diep', gioiTinh: 'nu', diemTichLuy: 105, dichVuDangKy: 'B'},
+//     {ten:'lai the anh', gioiTinh: 'nam', diemTichLuy: 55, dichVuDangKy: 'C'},
+//     {ten:'tran thi ngoc tram', gioiTinh: 'nu', diemTichLuy: 65, dichVuDangKy: 'C'},
+// ]
+
+
+// var dichVu = [
+//     {ten: 'A', khuyenMai: 0.2, giaTri:250},
+//     {ten: 'B', khuyenMai: 0.18, giaTri:210},
+//     {ten: 'C', khuyenMai: 0.15, giaTri:200},
+// ]
+
+
+var hangHoa = [
+        {id: 1, product:'P1 ', price: 259000, tonKho: 100},        
+        {id: 2, product: 'P1', price: 129000, tonKho: 230},
+        {id: 3, product: 'O2', price: 749000, store: 130},
+        {id: 4, product: 'O6', price: 499000, store: 240},
+] 
+//a ) Viết function in ra danh sách các khách hàng có khả năng đăng ký thẻ VIP với điều kiện điểm tích lũy lớn hơn 100 . .
+b )//Viết function in ra danh sách khách hàng theo dịch vụ mà từng người đăng ký .
+c ) Viết function in ra danh sách các khách hàng nam .
+Viết function in ra danh sách các khách hàng nữ .
+d )  Viết function tính giá sản phẩm theo từng khách hàng .  Nếu số lượng người dùng cần mua quá số lượng còn trong kho thì in ra “ Trong kho không đủ sản phẩm , vui lòng mua ít hơn “ . 
+Ví dụ :  Nguyễn Văn A  , đăng ký dịch vụ A ( khuyến mãi = 20%) và mua sản phẩm O2 với số lượng 10 cái . thì giá là 749000*10 -( 749000*10 )*0.2.
+
+//xây dựng danh sách mua hàng
+//function hoaDon (tenKhachHang, danhSachMuaHang) {
+	for - tìm khách hàng
+	=> for tìm dịch vụ => khuyến mãi
+	=> tổng tiền = danhSachMuaHang.reduce((total, value) => {
+		for (hangHoa) => tồn kho, đơn giá => tiền = đơn giá * value['soLuong']
+		return total+tiền;
+	},0)
+	return tổng tiền;
+}
+
+
+
+
+
+
+
+
+
+
+
+Bài 9 :
+// var tenKhach = [
+//     {ten: 'nguyen the su', gioBay: '11:30', diemDen: 'Nha Trang', veKhoang: 'S'}, 
+//     {ten: 'ngo van khoai', gioBay: '9:30', diemDen: 'Ha Noi', veKhoang: 'A'}, 
+//     {ten: 'tau dau hu', gioBay: '10:15', diemDen: 'Hai Phong', veKhoang: 'B'}, 
+//     {ten: 'chuyen lua gat', gioBay: '13:30', diemDen: 'Nha Trang', veKhoang: 'C'}, 
+//     {ten: 'le quan quy', gioBay: '14:30', diemDen: 'TP.HCM', veKhoang: 'A'}, 
+//     {ten: 'hoang hao hoa', gioBay: '11:30', diemDen: 'Nam Dinh', veKhoang: 'B'}, 
+// ]
+
+
+// var choNgoi = [
+//     {ten: 'Ghe hang king', mave:'S'},
+//     {ten: 'Ghe hang thuong gia', mave:'A'},
+//     {ten: 'Ghe hang pho thong', mave:'B'},
+//     {ten: 'Ghe hang pho cap', mave:'C'},
+// ]
+
+
+// var chuyenBay = [
+//     { gioBay: '11:30', diemDen:'Nha Trang', maMayBay: 'AB123' },
+//     { gioBay: '13:30', diemDen:'Nha Trang', maMayBay: 'GD178' },
+//     { gioBay: '11:30', diemDen:'Nam Dinh', maMayBay: 'BC452' },
+//     { gioBay: '14:30', diemDen:'TP.HCM', maMayBay: 'GD73' },
+//     { gioBay: '10:15', diemDen:'Hai Phong', maMayBay: 'FT351' },
+// ]
+
+
+//a )Viết function in ra thông tin của những người cùng giờ bay và cho thêm dữ kiện họ ngồi ghế gì, trên những chuyến bay nào .
+=> function đầu vào có giờ bay => filter khách cùng giờ bay
+tìm được những người cùng giờ bay => thêm dữ kiện cho mỗi người: map() => for chuyenBay, for choNgoi
+//b )  Hãy in ra thông tin chi tiết của người bay vào 9h30 và có cả dữ liệu họ ngồi ghế ghì, trên những chuyến bay nào . => a        
+c ) Viết function tìm theo tên hành khách và in ra chuyến bay của họ ..
+=> function đầu vào tên hành khách => for chuyenBay => khớp điểm đến + giờ bay => thong tin chuyen bay
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.

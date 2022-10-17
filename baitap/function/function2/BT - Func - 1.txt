@@ -1,0 +1,89 @@
+﻿1         Viết function có đầu vào là 1 array chứa các số
+a, Function trả ra tổng các phần tử trong array
+b, Function trả ra tích các phần tử trong array
+
+
+2        viết function có đầu vào là 1 array chứa các số
+        a, Function trả ra số lớn nhất trong array 
+        b, Function trả ra số bé nhất trong array 
+
+
+3        viết function có đầu vào là 1 array
+        Function trả ra array mới với thứ tự ngược lại với array ban đầu
+
+
+4         viết function có đầu vào là số number và 1 array chứa số
+        Function trả ra số lần number lặp lại trong array
+
+
+5        Viết function có đầu vào là 1 string
+        function trả ra string mới sau khi đã loại bỏ khoảng trống thừa ở đầu và ở cuối string
+        ví dụ:
+string = ‘     hello mọi người     ‘  => newString = ‘hello mọi người’
+
+
+6         viết function có đầu vào là 1 string
+        Thay thế tất cả dấu cách ‘ ‘ trong string bằng dấu ‘-‘ và trả ra string mới
+        VD 20 05 2015 => 20-05-2015
+
+
+7        Viết function có đầu vào là 1 array
+Function trả ra đoạn string chứa các giá trị bên trong array đầu vào
+
+
+8        viết function có đầu vào là 1 array chứa các số
+        Function trả ra số lớn nhất trong array  
+
+
+9        viết function có đầu vào là 1 array
+        Function trả ra array mới với thứ tự ngược lại với array ban đầu
+
+
+10         viết function có đầu vào là số number và 1 array chứa số
+        Function trả ra số lần number lặp lại trong array
+
+
+11        viết function có đầu vào là 1 string
+        Thay thế tất cả dấu cách ‘ ‘ trong string bằng dấu ‘-‘ và trả ra string mới 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+12        
+
+
+var sanPham = [
+  {
+        ten: "áo somi", gia: 100000
+    doanhSo: 100,
+  },
+  {
+    ten: "áo khoác", gia: 400000
+    doanhSo: 50,
+  },
+  {
+    ten: "áo phông", gia: 150000
+    doanhSo: 200,
+  },
+];
+ 
+Hãy viết function để xử lý data trên 
+a, function trả về tên hàng hóa có danh số cao nhất trong shop
+b, function trả về tên hàng hóa có danh số thấp nhất trong shop
+c, function trả về tổng doanh thu của shop, biết doanh thu = doanh so * gia ban

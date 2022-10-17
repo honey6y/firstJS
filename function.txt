@@ -1,0 +1,17 @@
+function                                            lưu trữ 1 khối logic để tái sử dụng
+
+function funcName (input) {
+    // code xử lý logic
+    // trả kết quả
+}
+
+===============================================================================================
+sử dụng logic được dững sẵn trong function
+
+input                                               nơi truyền tham số đầu vào cho function
+
+arguments                                           chứa tất cả các đầu vào của function, dưới dạng object có dạng mảng
+                                                    gọi các phần tử của arguments như gọi các phần tử của mảng/key của object
+
+return                                              kết quả đầu ra của function để sử dụng về sau
+                                                    kết thúc function

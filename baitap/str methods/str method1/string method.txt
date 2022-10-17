@@ -1,0 +1,73 @@
+﻿// B1
+var arr = ['thai', 'linh', 'tung', 'quan', 'khang']
+// hạy tạo danh sách có tên viết hoa chữ đầu [‘Thai’,’Linh’,...]
+
+
+// B2
+var string = 'nguyen thanh tung' 
+// hẫy viết hoa tất cả chữ cái đầu => 'Nguyen Thanh Tung'
+
+
+// B3
+var date = ‘15/10/2022’
+hãy tạo ra string mới có thứ tự ngược lại (‘2022/10/15’)
+
+
+B4:
+cho array persons 
+[{
+        name: ‘Trung’,
+        class: ‘Nodemy01’,
+        dateJoin: ‘05-02-2020’,
+age: 20
+}, {
+        name: ‘Phong’,
+class: ‘Nodemy01’,
+dateJoin: ‘06-01-2020’,
+age: 19
+}, {
+        name: ‘Nam’,
+class: ‘Nodemy02’
+dateJoin: ‘25-01-2020’,
+age: 20
+}]
+
+
+4.1 dùng .sort  để sắp xếp mảng object có tuổi tăng dần
+4.3 dùng .sort để sắp xếp mảng theo ngày tham gia của học viên
+4.2 dùng .filter để tìm ra những học viện tham gia trước tháng 2
+4.4 dùng .map để tạo mảng mới, viết hoa toàn bộ Tên học viện : (Trung => TRUNG) 
+
+
+Cho string 
+var greeting = ‘Welcome to Nodemy, Nodemy is stand for Nodejs Academy’;
+
+
+5.0: đếm xem có tất cả bao ký tự
+5.1: .indexOf tìm xem nodemy nằm ở vị trí nào
+5.2: .indexOf tìm xem Nodemy nằm ở vị trí nào
+5.3: dùng .startWith kiểm tra xem có bắt đầu với Welcome không
+5.4: dùng .substring để lấy chữ Academy
+5.5: dùng .split để tách các từ
+5.6: dùng .trim() để xóa các dấu cách ngoài rìa
+5.7: dùng .include để kiểm tra xem Nodemy có trong câu trên không
+5.8  dùng .replace để thay thế Nodemy thành NODEMY
+5.9: dùng .toUppercase để in hoa chữ cái
+5.10 dùng .charAt để lấy 1 ký tự ở vị trí số 4
+
+
+Bài 6: 
+var arr = ['thai', 'linh', 'tung', 'quan', 'khang']
+
+
+var data = [
+{name: ‘Thai’, age: 15,},  
+{name: ‘Kien’, age: 10,},
+{name: ‘Linh’, age: 12,},
+{name: ‘Tung’, age: 11,},
+{name: ‘Thinh’, age: 16,},
+{name: ‘Thuan’, age: 13,},
+]
+
+
+hãy tạo array chứ các object thông tin học sinh có tên trong arr

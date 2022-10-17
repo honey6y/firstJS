@@ -1,0 +1,42 @@
+charAt(index)                               lấy ký tự thứ index
+
+slice(start, stop)                          start - vị trí bắt đầu copy
+                                            stop - điểm dừng, không bao gồm
+
+substring(start,stop)                       start - vị trí bắt đầu trích xuất
+                                            stop - điểm dừng, không bao gồm
+                                            nếu start > stop => đổi chỗ 2 thằng
+
+substr(start, length)                       start - vị trí bắt đầu, giá trị âm có nghĩa tính từ cuối string
+                                            length - độ dài chuỗi ký tự
+
+indexOf(value)                              trả về vị trí ký tự đầu tiên thỏa mãn
+
+lastIndexOf(value)                          trả về vị trí ký tự cuối cùng thỏa mãn
+
+includes(value)                             true - có tồn tại ký tự
+                                            false - không tồn tại ký tự
+=========================================================================
+startWith(value)                            kiểm tra string có bắt đầu bằng (value) hay k
+                                            trả về true - false
+
+endWith(value)                              kiểm tra string có kết thúc bằng (end) hay k
+                                            trả về true-false
+
+split(ký tự)                                trả về 1 array từ string, dấu hiệu tách string là (ký tự) đưa vào
+
+toLowerCase()                               trả về 1 string mới, tất cả ký tự viết thường
+toUpperCase()                                trả về 1 string mới, tất cả ký tự viết hoa
+
+trim()                                      loại bỏ khoảng trống thừa ở 2 đầu string
+trimEnd()                                   loại bỏ khoảng trống thừa ở cuối string
+trimStart()                                 loại bỏ khoảng trống thừa ở đầu string
+
+replace(old,new)                            trả về 1 string mới có old đầu tiên thay bằng new
+                                            muốn sửa toàn bộ, sử dụng biểu thức chính quy (g, i...)
+                                            g - global - toàn bộ string
+                                            i - insensitive - không phân biệt chữ hoa - chữ thường
+
+match(value)                                trả về 1 mảng phần tử đầu tiên trùng với (value)
+                                            muốn tìm toàn bộ, sử dụng biểu thức chính quy (g, i,..)
+

@@ -1,0 +1,47 @@
+new Date()                              tạo ra DateObject của thời điểm hiện tại
+
+new Date(dateStr)                       tạo ra dateObject của thời điểm chỉ định
+        dateStr định dạng   mm/dd/yyyy -- yyyy/mm/dd
+
+new Date(yyyy, mm, dd, hh, min, s, ms);
+                                        tạo ra dateObject theo thông số chỉ định
+                                        tháng đếm từ 0 - 11
+
+new Date(milisec)                       tạo ra dateObject lấy mốc thời gian từ 1/1/1970
+                                        khi tính toán với date sẽ quy về milisec
+
+=========================================================================================
+
+truy vấn date
+
+getDate()
+getMonth() 0 - 11
+getFullYear()
+getDay() 0 - 6 => sun - sat
+
+=========================================================================================
+
+ghi đè date
+
+setFullYear()                           ghi đè năm, tháng, ngày
+                                        có cộng dồn, tháng đếm từ 0
+
+setMonth()                              ghi đè tháng, ngày
+                                        có cộng dồn, tháng đếm từ 0
+
+setDate()                               ghi đè ngày
+                                        có cộng dồn, ngày đếm từ 1
+
+setHours()                              ghi đè giờ, phút, giây
+                                        có cộng dồn
+
+setMinutes()
+setSeconds()
+setMiliseconds()...
+=========================================================================================
+
+Math.abs(value)                         trả về trị tuyệt đối value
+round(value)                            làm tròn tự nhiên, mốc 0.5
+ceil(value)                             làm tròn lên
+floor(value)                            làm tròn xuống
+toFixed(value)                          value - số các số sau dấu ','

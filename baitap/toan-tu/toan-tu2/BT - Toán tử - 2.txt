@@ -1,0 +1,84 @@
+﻿Bài 1:
+1. "" + 1 + 0
+2. "" - 1 + 0
+3. true + false
+4. 6 / "3"
+5. "2" * "3"
+6. 4 + 5 + "px"
+7. "$" + 4 + 5
+8. "4" - 2
+9. "4px" - 2
+10. 7 / 0
+11. "  -9  " + 5
+12. "  -9  " - 5
+13. null + 1
+14. undefined + 1
+15. " \t \n" - 2
+Kết quả của các phép tính là gì?
+
+
+Bài 2:
+Var x = 5
+
+
+Var a = 5 + x++ + 10
+
+
+Var b = 5 + ++x +10
+
+
+Var c = 5 + x-- + 10
+
+
+Var d = 5 + --x +10
+
+
+Hỏi: a, b, c, d có giá trị là bao nhiêu?
+
+
+
+
+Bài 4: 
+var text = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+1. In ra số phần tử trong chuỗi
+2. Lấy ra ký tự ‘K’ trong chuỗi.
+
+
+Bài 5: 
+Dùng toán tử 3 ngôi so sánh 2 ngày bất kỳ cho trước.
+ví dụ: so sánh ngày 23/4/2000 và ngày 06/10/2022.
+
+
+Bài 6: cho array = [1,6,8,7,6,9]
+1.  array trên có bao nhiêu phần tử
+2. hãy in ra phần tử đầu tiên và phần tử cuối cùng trong array
+3.  hãy thêm số 5 vào cuối array
+4. hãy thay đổi phần tử đầu và phần tử cuối thành số 10
+
+
+Bài 7: cho object user = {
+        ten: ‘tung’,
+        tuoi: 20
+}
+
+
+1.  hãy in ra tên và tuổi của user
+2.  hãy thêm cho user họ là ‘nguyễn’
+3. hãy thay đổi tuổi thành 30
+
+
+Bài 8: cho array = [3,5,4,9,8,1,10]
+1. hãy tính tổng của phần tử đầu và phần tử cuối // 3 + 10
+2. hãy thêm số 20 vào cuối array trên và tính lại tổng của phần tử đầu và phần tử cuối  // 3 + 20
+
+
+Bài 9: cho array2 = [1,6,8,7,10 , [6,8,7,4,3,5] , 3]
+1. tính tổng của phần tử đầu và phần tử cuối trong array2 và array con 
+2. hãy thêm số 10 vào cuối array con và tính lại tổng trên
+
+
+Bài 10: 
+Viết chương trình kiểm tra nhiệt độ:
+1. Nhỏ hơn 20 độ C thông báo tăng nhiệt độ.
+2. Lớn hơn 100 độ C thông báo giảm nhiệt độ
+3. Còn lại nhiệt độ đủ dùng.

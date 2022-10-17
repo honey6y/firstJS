@@ -1,0 +1,70 @@
+﻿let data = [
+    {title: 'ao so mi', price: 200000},
+    {title: 'ao gio', price: 800000},
+    {title: 'quan dui', price: 150000},
+    {title: 'ao phong', price: 250000},
+    {title: 'quan bo', price: 400000},
+    {title: 'quan au', price: 500000},
+    {title: 'ao vest', price: 1200000},
+    {title: 'ao ba lo', price: 100000},
+    {title: 'tat', price: 30000},
+]
+ 
+// hãy viết 1 function có đầu vào là array data, page, pageSize, filter
+// page là vị trí trang muốn xem kết quả
+// pageSize là số lượng kết quả trên 1 trang
+//  VD (page = 2, pageSize = 10 là xem data từ phần tử thứ 10 đến 20)
+//  VD (page = 3, pageSize = 5 là xem data từ phần tử thứ 10 đến 15)
+// filter là điều kiện tìm kiếm trước khi show kết quả
+// function trả về các data theo điều kiện lọc và hiển thị theo vị trí trang người dùng muốn xem
+ 
+// vd người dùng tìm áo, page = 1, pageSize = 5 thì trể ra 5 áo đầu tiên trong data
+// vd người dùng tìm áo, page = 2, pageSize = 5 thì trể ra 5 áo đầu tiên từ số 5 đến số 10
+// vd người dùng tìm áo sắp xếp tăng dần, page = 1, pageSize = 5 thì trể ra 5 áo đầu tiên theo thứ tự giá tăng dần
+// vd người dùng tìm áo giá <= 200000, page = 1, pageSize = 5 thì trể ra 5 áo đầu tiên giá <= 200000
+ 
+
+
+Bài 2: 
+var  iphone= [
+        {id: 1, product:'Iphone 12 ', price: 9990000, store: 120, color:’red’},
+{id: 2, product:'Iphone 12 ', price: 12590000, store: 121, color:’black’},
+{id: 3, product:'Iphone 12 ', price: 13590000, store: 120, color:’green’},
+        {id: 4, product: 'iphone 13 Pro', price: 17900000, store: 230 , color:’black’},
+{id: 5, product: 'iphone 13 Pro', price: 19900000, store: 230 ,color:’red’},
+{id: 6, product: 'iphone 13 Pro', price: 14900000, store: 230,color:’blue’},
+        {id: 7, product: 'iphone 13', price: 12490000, store: 220,color:’black’},
+{id: 8, product: 'iphone 13', price: 24900000, store: 220,color:’while’},
+{id: 9, product: 'iphone 13', price: 24900000, store: 220,color:’blue’}
+]  
+2.1 viết function có đầu vào là array, name, callback
+funtion trả ra các sản phẩm theo yêu cầu
+name là tên hàng hóa muốn tìm, 
+vd tìm name = pro trả về tất cả sp có chữ pro 
+vd tìm name = pro và màu red thì trả về tất cả sp có pro màu red
+vd tìm name = pro và màu red và black thì trả về tất cả sp có pro màu red và black
+vd tìm name = pro giá từ 20tr - 30tr thì trả về tất cả sp có pro giá từ 20- 30tr
+ 
+Bài 3:  
+var bienLai = [
+        {ten: 'nam', giaTri:300, diachiden: 'Han Quoc'},
+        {ten: 'hieu', giaTri:180, diachiden: 'UK'},
+        {ten: 'nam', giaTri:180, diachiden: 'US'},
+        {ten: 'tram', giaTri:180, diachiden: 'US'},
+        {ten: 'dat', giaTri:170, diachiden: 'Han Quoc'},
+        {ten: 'anh', giaTri:100, diachiden: 'UK'},
+        {ten: 'hieu', giaTri:180, diachiden: 'Han Quoc'},
+        {ten: 'lam', giaTri:200, diachiden: 'Han Quoc'},
+        {ten: 'quy', giaTri:210, diachiden: 'Canada'},
+        {ten: 'diep', giaTri:100, diachiden: 'US'},
+        {ten: 'huong', giaTri:100, diachiden: 'Canada'},
+    ]
+// Func có đầu vào là array, nation(quốc gia), callback
+3.1 Viết func trả về tổng số giá trị biến lai của mỗi nước
+3.2 Viết Func trả về giá trị biên lại trung bình của mỗi nước
+3.2 Viết func trả về biên lai có giá trị hơn 180 và là người hàn quốc
+
+
+Bài 4: 
+4.1 Tạo hàm myFind dựa trên find method
+4.2 Tạo hàm myIndexOf dựa trên indexOf methor

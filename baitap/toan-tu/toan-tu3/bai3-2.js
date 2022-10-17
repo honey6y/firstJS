@@ -1,0 +1,11 @@
+var pi = 3.14;
+var r = 6;
+var d = r*2;
+var s = 0;
+s = 4 * pi * r**2;
+console.log('dien tich cua mat cau la:',s);
+s = pi * d**2;
+console.log('dien tich cua mat cau la:',s);
+var v = 0;
+v = (4/3) * pi * r**3;
+console.log('the tich cua khoi cau la:', v);

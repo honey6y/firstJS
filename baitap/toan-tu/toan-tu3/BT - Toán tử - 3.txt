@@ -1,0 +1,137 @@
+﻿Toán tử số học 
+Bài 1  : 
+Var x = 8
+Var a = 1 + x++ + 9
+Var b = 7 + ++x + 3
+Var c = 5 + x-- + 10
+Var d = 6 + --x + 11
+a,b,c d có giá trị là bao nhiêu ?
+
+Bài 2 
+khai báo a ; b ;c  là  số đo 3 vong của  tam giác  ABC ..  
+a ) tính chu vi của tam giác   
+b ) Kiểm tra xem ABC có phải tam giác đều không . 
+console.log để in ra kết quả . 
+c ) Trường hợp ABC là tam giác đều  . Tính diện tích của Tam giác ABC . 
+
+Bài 3  khai báo biến r là bán kính của một hình tròn  .  
+a ) Đường kính  d của hình tròn . 
+b ) Tính diện tích hình tròn 
+c ) tính chu vi của hinh tròn trên  .  
+d ) tính chu vi của hình tròn bằng Đường kính d . 
+ 
+Bài 4 : 
+Khai báo x ;y lần lượt là chiều dài và chiều rộng  của hình chữ nhật XYZT  
+a ) tính chu vi của hình Chữ nhật XYZT 
+b ) Tính diện tích của hình chữ nhật XYZT
+c  ) Kiểm tra xem XYZT có phải hình vuông không ?
+Nếu có thì tính chu vi và diện tích của hình Vuông trên . 
+  
+Bài 5 : khai báo r  là bán kính của một hình bán nguyệt 
+a ) tính đường kính của hinh bán nguyệt
+b  ) tính chu vi của hình bán nguyệt .
+b ) tính diện tích của hinh bán nguyệt 
+
+
+
+
+
+
+ÁP dụng toán tử ba ngôi 
+
+
+Bài 1
+Khai báo một  biến diem với  giá trị số  bất kỳ
+Nếu diem < 0 thì in ra “ không hợp lệ “ 
+Nếu  0 < =  diem  <  5 in ra  “ kém “ 
+Nếu 5 < = diem < 6.5 in ra “ Trung bình” 
+Nếu 6.5 < =  diem  < 8 thì in ra “ Khá” 
+Nếu 8 < =  diem < = 10 thì in ra “Giỏi” 
+Trường hợp còn lại  in ra “ Không hợp lệ “  
+
+
+Bai 2,: 
+Cho biến soDienThoai là một array gồm nhiều  số có 1 chữ số bất kỳ .. 
+Nếu soDienThoai để trống thì in ra  “Không được để trống “ 
+Nếu soDienThoai  ít hơn hoặc nhiều hơn 10 phần tử thì in ra  “ Sđt không hơp lệ “ 
+Nếu soDienThoai  có 10 phần tử “SĐT hợp lệ “ và in ra soDienThoai 
+
+
+
+
+Bài 3 :Khai báo 1 số x . 
+a ) kiểm tra số x là số âm hay số dương , rồi in ra dưới dạng sau : 
+` Số $(x) là số âm ( hoặc dương) ` 
+b ) kiểm tra xem số x có phải số nguyên không  . rồi in ra dưới dạng sau :
+` Số $(x) là số  nguyên ( số thập phân )  `
+ 
+Bài 4 
+Khai báo biến tuoi với số dương bất kỳ  
+Nếu tuoi < 13  in ra kết quả “Trẻ em “ 
+nếu. 13 < =  tuoi < = 17 in ra kết quả “ Thiếu niên “ ,
+nếu 18 < = tuoi < = 39  in ra kết quả “ Trưởng thành “ 
+nếu 40 < = tuoi < = 65  in ra kết quả “ Trung niên “ 
+còn lại in ra kết quả “ Già”  
+ 
+Bài 5 
+Cho biến button là 1 string và Biến page là 1 số nguyên từ 1 đến 10
+Nếu biến button = ‘next’ thì page tăng 1 đơn vị
+Nếu biến button = ‘prev’ thì page giảm 1 đơn vị
+Nếu button nhận giá trị từ 1-10 thì page nhận giá trị tương tự
+Nếu page = 10 và button = ‘next’ thì page vẫn = 10
+Nếu page = 1 và button = ‘prev’ thì page vẫn = 1 
+
+
+Bài tập sáng 21/4/2022 
+
+
+Bài 1 : 
+Khai báo biến a ; b ; c lần lượt là  chiều cao , chiều rộng , chiều dài của một hình hộp chữ nhật . ( 
+a ) Tính thể tích V của hình hộp chữ nhật trên (V=a*b*c )  
+b ) Kiểm tra xem Hình hộp chữ nhật trên có phải la hình lập phương hay không . Nếu có thì tính thể tích của hình Lập phương trên  . 
+c ) Tinh đường chéo D của hình hộp chữ nhật trên . 
+d ) tính chu vi P của hình hộp chữ nhật  
+e ) Tính diện tích xung quanh của hinh hộp chữ nhật trên  .  
+f  ) Tính diện tích toàn phần của hình hộp chữ nhật  
+console.log để in ra kết quả của 
+
+bài 2 : 
+Khai báo biến pi = 3,14 
+r là bán kính của hình cầu . 
+d là đường kính của hình cầu  . 
+a ) Tính diện tích của mặt cầu .
+b ) Tính diện tích của của mặt cầu bằng đường kính d  
+c ) Tính thể tích V của khối cầu 
+
+Bài 3  
+Khái báo biến sanPham là số lượng sản phẩm mà người mua nhập vào  . 
+Tính tiền Hàng  bằng toán tử 3 ngôi biết 
+mua lẻ  1 đên 20 sản phẩm  giá  10000/ sản phẩm
+Nếu mua  > 20 sản phẩm thì giá là 8000/ sản phẩm 
+Nếu mua > 50  sản phẩm thì giá là 7000/ sản phẩm 
+Nếu mua > = 100 sản phẩm thì giá là 6000/ sản phẩm .  
+
+
+Bài 4  
+Khai  báo biến a và b với giá trị số mà người dùng nhập nhập vào . 
+So sánh 2 số a và b rồi in ra kết quả .( lớn hơn , nhỏ hơn , bằng ) 
+lưu ý : a và b  là số nguyên  .
+  
+Bài 5 
+Khai báo biến tienLuong là số lương của nhân viên  . 
+Tính tiên thuế và thu nhập thật của nhân viên  , biết rằng :
+30% thuế thu nhập nếu lương là > 80 triệu.
+20% thuế thu nhập nếu lương từ 20 đến 80 triệu.
+10% thuế thu nhập nếu lương  <  20 triệu.
+Thu nhập thật  = tienLuong - thuế .. 
+
+Bài 6 : 
+Khai báo biến x với giá trị mà người dùng nhập vào . 
+Sử dụng toán tử ba ngôi để thông báo cho người dùng biết số đó lớn hơn , nhỏ hơn hoặc bằng 20 hay không  .. 
+
+Bài 7 
+Sử dụng toán tử ba ngôi   tìm nghiệm của phương trình bậc hai ax2 + bx + c = 0. Biết rằng:
+Nếu a và b cùng bằng 0 thì phương trình vô nghiệm.
+Nếu a=0 thì phương trình có một nghiệm là (-c/b).
+Nếu b*b -4a*c < 0, thì phương trình vô nghiệm.
+Nếu không, phương trình có hai nghiệm, dùng công thức tính nghiệm để tính.

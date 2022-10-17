@@ -1,0 +1,62 @@
+﻿// Bài 1: 
+// Hãy viết 1 function có tham só đầu vào là 1 array và 1 callback trong đó kết quả trả về
+// là trong array nhập vào có các giá trị nào xuất hiện và giá trị đó được lặp lại mấy lần.
+
+
+
+
+// Bài 2: 
+// giả sử tải file nặng 500mb
+// tốc độ tải mỗi giây biến động trong khoảng từ 1 - 10 mb/s
+// hãy hiển thị % download mỗi giây 1 lần, đến 100% thì thông báo tải thành công và kết thúc
+// Nâng cao bài 2 là mỗi lần hiển thị % download mới thì thời gian ngẫu nhiên từ 1 đến 3 giây
+
+
+//Bài 3:
+// giả sử tải file nặng 500mb,1500mb
+// tốc độ tải mỗi giây biến động trong khoảng từ 10 - 20 mb/s
+// Mỗi file nhận được bằng, khi có 1 file tải xong, file còn lại nhận tất cả lư lượng
+// hãy hiển thị % download mỗi giây 1 lần, đến 100% thì thông báo tải thành công và kết thúc
+// Nâng cao bài 2 là mỗi lần hiển thị % download mới thì thời gian ngẫu nhiên từ 1 đến 3 giây
+
+
+// Các bài thêm: 
+// Bài 1: 
+// Cho array = [1,4,3,2,5,7,10,5,9,11,23,35,71,43]
+// -) Hãy viết 1 funtion in ra dãy các số nguyên tố và vị trí của nó trong array  
+// -) Tính tổng các số nguyên tố trong array  và trung bình cộng của các số trong array
+// -) Viết funtion để tính tích của các số nguyên tố trong dãy array
+
+
+// Bài 2: 
+// Viết 1 function nhập vào giá trị của 2 điểm a và b  
+// Hãy tính khoảng cách giữa 2 điểm a và b với tọa độ của a và b có giá trị của xOy
+
+
+// Bài 3: 
+// Cho array1 = [1,5,2,6,2,8,9,4,6,2,3,5,7,9,3,2,75,6,4,3,2,4,12];
+// Viết function Tính tích của các phần tử từ đầu đến vị trí số 2 xuất hiện lần thứ 3
+// Viết function tính tích , tính tổng , tính trung bình cộng của dãy array2 là x số cuối của dãy array1
+// Viết function Tính tích, tính tổng của các phần tử từ vị trí số 2 xuất hiện lần đầu đến vị trí số 2 xuất hiện lần thứ 4
+
+
+// Bài 4: 
+// Cho array1 = [1,5,2,6,2,8,9,4,6,2,3,5,7,9,3,2,75,6,4,3,2,4,12];
+// Cho array2 = [4,6,3,8,5,7,4,1,2,9,6,5,3,1,5,2,7,6,8,6,3,2,1,5];
+// Cho array3 = [2,5,1,6,3,8,4,10,5,3,1,6,5,2,6,4,8,9,2,1,5,8,7,12];
+// Viết function Tính tổng, tích, giá trị trung bình cộng của cả 3 array
+// Viết function Tính tích của các phần tử từ đầu đến vị trí số 2 xuất hiện lần thứ 3 của array1 với tích phần 
+// tử từ đầu đến vị trí có giá trị là 5 xuất hiện lần 2 của array2
+// Viết function tính tích , tính tổng , tính trung bình cộng của dãy là x số cuối của cả array1,array2,array3
+// Viết function Tính tích, tính tổng của các phần tử từ vị trí số 2 xuất hiện lần đầu đến vị trí số 2 xuất hiện lần thứ 4 của cả 3 array
+
+
+
+
+// Bài 5
+// viết function có đầu vào là array chứa number, start, stop, callback
+// function có thể tính tổng các giá trị từ start => stop
+// function có thể tính tích các giá trị từ start => stop
+// function có thể tính trung bình công các giá trị từ start => stop
+// function có thể tính tổng bình phương các giá trị từ start => stop
+10:41

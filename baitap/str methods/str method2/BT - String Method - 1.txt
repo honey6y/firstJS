@@ -1,0 +1,146 @@
+﻿Bài 0: var str = 'Hôm nào chán tụi em lại rủ nhau đi đánh đáo, đánh khăng. Trong nhà em toàn bi, ảnh, quay, không thể kiếm đâu ra một con búp bê hay một bộ đồ hàng cả. Ba thường vừa cười vừa trêu em “đáng lẽ Bé Còi nhà ta phải là con trai mới đúng”.'
+// Hãy đổi các ‘em’ thành EM
+// Đoạn văn trên có bao nhiêu ký tự
+// Lấy ra câu “đáng lẽ Bé Còi nhà ta phải là con trai mới đúng’’. đưa về mảng chứ từng ký tự.
+// kiểm tra xem đoạn văn trên bắt đầu bằng “Hôm”. Nếu đúng thay thế thành “Ngày”
+Bài 1:
+var arr = ['thai', 'linh', 'tung', 'quan', 'khang']
+// hãy tạo danh sách có tên viết hoa chữ đầu [‘Thai’,’Linh’,...]
+
+
+Bài 2:
+var string = 'nguyen thanh tung' 
+// hẫy viết hoa tất cả chữ cái đầu => 'Nguyen Thanh Tung'
+
+
+Bài 3:
+var date = ‘15/10/2022’
+hãy tạo ra string mới có thứ tự ngược lại (‘2022/10/15’)
+
+
+Bài 4
+cho array persons 
+[{
+        name: ‘Trung’,
+        class: ‘Nodemy01’,
+        dateJoin: ‘05-02-2020’,
+age: 20
+}, {
+        name: ‘Phong’,
+class: ‘Nodemy01’,
+dateJoin: ‘06-01-2020’,
+age: 19
+}, {
+        name: ‘Nam’,
+class: ‘Nodemy02’
+dateJoin: ‘25-01-2020’,
+age: 20
+}]
+
+
+4.1 dùng .sort  để sắp xếp mảng object có tuổi tăng dần
+4.3 dùng .sort để sắp xếp mảng theo ngày tham gia của học viên
+4.2 dùng .filter để tìm ra những học viện tham gia trước tháng 2
+4.4 dùng .map để tạo mảng mới, viết hoa toàn bộ Tên học viện : (Trung => TRUNG) 
+
+
+Bài 5:Cho string 
+var greeting = ‘Welcome to Nodemy, Nodemy is stand for Nodejs Academy’;
+
+
+5.0: đếm xem có tất cả bao ký tự
+5.1: .indexOf tìm xem nodemy nằm ở vị trí nào
+5.2: .indexOf tìm xem Nodemy nằm ở vị trí nào
+5.3: dùng .startWith kiểm tra xem có bắt đầu với Welcome không
+5.4: dùng .substring để lấy chữ Academy
+5.5: dùng .split để tách các từ
+5.6: dùng .trim() để xóa các dấu cách ngoài rìa
+5.7: dùng .include để kiểm tra xem Nodemy có trong câu trên không
+5.8  dùng .replace để thay thế Nodemy thành NODEMY
+5.9: dùng .toUppercase để in hoa chữ cái
+5.10 dùng .charAt để lấy 1 ký tự ở vị trí số 4
+
+
+Bài 6: 
+var arr = ['Thai', 'Linh', 'Tung', 'Quan', 'Khang']
+
+
+var data = [
+{name: ‘Thai’, age: 15,},
+{name: ‘Kien’, age: 10,},
+{name: ‘Linh’, age: 12,},
+{name: ‘Tung’, age: 11,},
+{name: ‘Thinh’, age: 16,},
+{name: ‘Thuan’, age: 13,},
+]
+
+
+hãy tạo array chứ các object thông tin học sinh có tên trong arr  .  
+Bài 7: Viết hàm có đầu vào là một string. Kiểm tra xem chuỗi đó có phải là email hay không?
+
+
+Bài 8:
+
+
+var hocSinh = [
+{name:'Thai', age: 15,maSV:'A1001A',diemthi:{toan:8,van:7,anh:9}},
+{name:'Kien', age: 10,maSV:'B1001D',diemthi:{toan:6,van:6,anh:9}},
+{name:'Linh', age: 12,maSV:'C1001C',diemthi:{toan:8,van:7,anh:7}},
+{name:'Tung', age: 11,maSV:'A1002B',diemthi:{toan:7,van:6,anh:9}},
+{name:'Thinh', age: 16,maSV:'B1002A',diemthi:{toan:5,van:7,anh:7}},
+{name:'Thuan', age: 13,maSV:'C1003C',diemthi:{toan:7,van:7,anh:7}},
+{name:'Hai', age: 13,maSV:'C1002B',diemthi:{toan:8,van:7,anh:6}},
+]
+
+
+var lop =[
+{name:'A1', loai:'Lớp chọn'},
+{name:'B1', loai:'Loại B'},
+{name:'C1', Loai:'Loại C'},
+]
+var khoiThi = [
+{name:'A', diem:22,heso:{toan:2,van:1,anh:1}},
+{name:'B', diem:25,heso:{toan:1,van:2,anh:1}},
+{name:'C', diem:21,heso:{toan:1,van:1,anh:2}},
+]
+
+
+
+
+Ví dụ  maSV: A1001A 
+A1 là tên lớp . 
+001 là thứ tự của học sinh 
+A là khối thi. . 
+
+
+a ) Lọc các học sinh theo lớp  .  
+b ) Lọc các học sinh theo Khối thi  .
+c ) Tính tổng điểm của các học sinh .  cho biết học sinh đó đỗ hay trượt 
+
+
+Bài 10: 
+var data = [
+{name: ‘Nguyen Van Thai’, age: 11,},
+{name: ‘Hoang Manh Kien’, age: 10,},
+{name: ‘Pham ThuyLinh’, age: 12,},
+{name: ‘ Nguyen Ngoc Tung’, age: 11,},
+{name: ‘Vu Quang Thinh’, age: 17,},
+{name: ‘Nguyen Minh Thuan’, age: 13,},
+{name: ‘Nguyen Van Thai’, age: 15,},
+{name: ‘Hoang Manh Kien’, age: 10,},
+{name: ‘Pham ThuyLinh’, age: 12,},
+{name: ‘ Vu Ngoc Tung’, age: 11,},
+{name: ‘Le Quang Thinh’, age: 13,},
+{name: ‘Nguyen Minh Thuan’, age: 13,},
+{name: ‘Nguyen Van Thai’, age: 15,},
+{name: ‘Hoang Manh Kien’, age: 10,},
+{name: ‘Hoang ThuyLinh’, age: 12,},
+{name: ‘ Nguyen Ngoc Tung’, age: 11,},
+{name: ‘Le Quang Thinh’, age: 16,},
+{name: ‘Chu Minh Thuan’, age: 13,},
+
+
+// Hãy tìm người có họ Nguyen và có tuổi là 12;
+// Hãy tìm người có tên Thinh và có tuổi là 15;
+//Sắp xếp theo tuổi!! haha
+// Thay thế những người tên tùng thành 19 tuổi

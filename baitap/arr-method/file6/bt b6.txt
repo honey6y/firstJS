@@ -1,0 +1,63 @@
+ B1
+var arr2 = ['4', '6', 1,2,3,5, 'y', 't', 5]
+// viết function có đầu vào là 1 arr return tổng các number và string number trong array
+
+B2
+var list1 = [3,6,7,9,5]
+var list2 = [3,5,7,8,6,6,7]
+// viết function có đầu vào là 2 array và return tổng 2 array đầy vào
+// viết function có đầu vào là 2 array return array mới gộp 2 array với nhau và các phần tử sắp xếp tăng dần
+
+B3
+var data = [1,2,3,1,2,3,4,5,6,5,4,6]
+// viết function có dầu vào là array và return ra array mới chứa các phần tử của array đầu vào không lặp lại
+
+B4
+var hocSinh=[
+{ten: 'huy', khoi:'A', diem: {toan: 7, van: 5, anh:5}},
+{ten: 'lam', khoi:'B', diem: {toan: 7, van: 7, anh:5}},
+{ten: 'tung', khoi:'C', diem: {toan: 7, van: 4, anh:7}},
+]
+
+var khoiThi = [
+{khoi: 'A', heSo:{toan:2, van:1, anh:1}, diemSan:25},
+{khoi: 'B', heSo:{toan:1, van:1, anh:2}, diemSan:24},
+{khoi: 'C', heSo:{toan:1, van:2, anh:1}, diemSan:20},
+]
+
+hãy tính điểm thi của từng học sinh biết tổng điểm = điểm thi * hệ số
+hệ số sẽ thay đổi theo khối thi và môn thi
+hoc sinh thi đỗ nếu điểm thi >= điểm sàn của khối tương ứng
+hãy cho biết ai thi đỗ, ai thi trượt
+
+B5
+
+var all = [
+  {name: 'huy', score: 10, class: 'A'},
+  {name: 'hai', score: 7, class: 'B'},
+  {name: 'hung', score: 8, class: 'A'},
+  {name: 'kien', score: 6, class: 'A'},
+  {name: 'vinh', score: 9, class: 'B'},
+  {name: 'binh', score: 8, class: 'B'},
+  {name: 'cuong', score: 5, class: 'B'},
+  {name: 'chien', score: 6, class: 'A'},
+  {name: 'minh', score: 7, class: 'B'},
+]
+ 
+var doiTuyen = ['huy', 'vinh', 'binh', 'hung', 'minh']
+a, Hãy tạo ra arrayA chỉ chứa object  các học sinh lớp A
+b, Hãy tạo ra array chứa object các học viên có điểm từ 6 trở xuống
+c, Hãy tạo ra array vip chứa object các học viên tham gia đội tuyển
+
+B6
+var data = [1,2,3,1,2,3,4,5,6,5,4,6,3]
+
+hãy cho biết các phần tử trong array trên lặp lại bao nhiêu lần
+// kết quả: [
+{phanTu: 1, lapLai: 2},
+	{phanTu: 2, lapLai: 2},
+	{phanTu: 3, lapLai: 3},
+	……
+]
+
+

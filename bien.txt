@@ -1,0 +1,76 @@
+console.log(data)                       hiển thị data lên console, terminal
+
+> node name.js                          lệnh chạy file .js
+
+===========================================================================
+var                                     từ khóa khai báo biến
+    var age = 10;                       ví dụ khai báo
+        
+        age = 26;                       ghi đè giá trị vào biến
+
+===========================================================================
+string
+
+var ten = 'Thai'                        khai báo string phải bọc string trong '' hoặc ""
+    ten = "Thai"
+
+var convers = ` Thai: alo
+                Phong: alo `            khai báo string trên nhiều dòng dùng ``
+
+                                        thêm logic vào trong string thì dùng ${data}
+                                        ${data} chỉ dùng được với ``
+
+============================================================================
+object                                  chứa dữ liệu về 1 đối tượng cụ thể
+
+var object = {                          dữ liệu theo cặp key:value
+    key1: value1,                       cặp key:value kết thúc bằng dấu ','
+    key2: value2,                       object đóng gói trong ngoặc {}
+    key3: value3,                       object có tất cả các key kể cả chưa liệt kê
+    key4: value4,                       key nào chưa liệt kê thì khi log sẽ là undefine
+    key5: value5
+}
+
+object.key                              truy vấn data trong object
+                                        chỉ truy vấn cố định những key chứa trong object
+
+object[]                                truy vấn linh hoạt, có thể truy vấn các biến có giá trị là
+                                        các key chứa trong object
+
+object.key = value                      thay đổi giá trị của key chứa trong object
+object[key] = value
+
+object[newKey] = value                  thêm mới key data vào object
+
+delete object[key]                      xóa 1 key data khỏi object
+
+===============================================================================================
+array[]                                 chứa danh sách
+                                        cũng là object
+                                        mỗi phần tử trong array có thể là các loại dữ liệu khác nhau
+                                        (số, chuỗi, object, array, phép tính(value)...)
+                                        THÔNG THƯỜNG MỖI ARRAY CHỈ NÊN CHỨA 1 LOẠI DỮ LIỆU
+
+array[index]                            truy vấn data phần tử của mảng
+
+delete array[index]                     XÓA DATA tại vị trí index
+                                        vị trí index vẫn tồn tại, trở thành empty
+                                        data tại vị trí index khi empty hoặc chưa gán thì undefine
+
+hàm
+typeof(value)                           trả về kiểu dữ liệu của (value)       
+Array.isArray(value)                    trả về (true) khi value là array
+                                        trả về (false) khi value không phải là array
+
+array.lenght                            trả về độ dài của array
+    array.lenght = value                cắt độ dài của array
+
+=====================================================================================
+kiểu dữ liệu khác
+
+boolean                                 true, false
+undefine                                undefine      
+null                                    null
+
+NaN                                     Not a Number - ép thành number nhưng không phải number
+                                        số nhưng không dùng được

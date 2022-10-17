@@ -1,0 +1,10 @@
+var ketQua = Object.entries(output).reduce((total,[value,loop]) => ([...total,{phanTu: value, lapLai:loop}]),[])
+
+cách format Date() ?
+
+deepcopy? => dùng JSON => stringify object => JSON => parse JSON => object
+shallowcopy?
+
+hàm eval?
+
+các cách truyền tham số vào hàm: tham chiếu, tham trị...

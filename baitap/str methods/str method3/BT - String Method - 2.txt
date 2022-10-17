@@ -1,0 +1,131 @@
+﻿Bài 1: Cho str1 = 'Ngay moi vui ve'
+1.1 Dùng .include để kiểm tra xem 'vui' có trong câu trên không
+1.2 Hãy tách các từ trong str1 và in trong 1 array mới kết quả yêu cầu ['Ngay', 'moi', 'vui', 've']
+1.3 Hãy viết hoa chữ cái đầu và in lại kết quả yêu cầu 'Ngay Moi Vui Ve'
+1.4 Hãy thay vui thanh VUI gợi ý dùng replace
+1.5 Hãy lấy ký tự tại vị trí thứ 4
+1.6 Hãy in lại str1 thành 'vui ve Ngay moi'
+Bài 2: Cho ten = ['dao linh huong', 'tran ngoc diep', 'nguyen duy minh', 'dao minh nguyet', 'dao van anh']
+Cho thongTin = [
+{ten: 'dao linh huong', ngaySinh:'02/28/1998'},
+{ten: 'tran ngoc diep', ngaySinh:'02/12/1998'},
+{ten: 'nguyen duy minh', ngaySinh:'02/03/1998'},
+{ten: 'nguyen duy mạnh', ngaySinh:'02/03/1998'},
+{ten: ‘le thanh tung', ngaySinh:'02/03/1998'},
+{ten: 'dao minh nguyet', ngaySinh:'02/20/1998'},
+]
+2.1 Hãy in lại họ tên của những người trong array ten có chữ hoa ở đầu mỗi từ VD: Dao Linh Huong
+2.2 Hãy in lại thông tin ngày sinh của mỗi người trong bảng thông tin đang từ dạng mm/dd/yyyy thành dd/mm/yyyy
+2.3 Hãy sắp xếp lại data trong array thongTin theo thứ tự ngày sinh tăng dần
+2.4 Hãy sắp xếp theo ngày sinh, nếu trùng ngày sinh thì xếp theo tên
+
+
+Bài 3: var khachHang = [
+ {ten:'nguyen van nam', gioiTinh: 'nam', diemTichLuy: 125, dichVuDangKy: 'A'},
+{ten:'dao linh huong', gioiTinh: 'nu', diemTichLuy: 170, dichVuDangKy: 'B'},
+{ten:'le dinh hieu', gioiTinh: 'nam', diemTichLuy: 115, dichVuDangKy: 'C'},
+{ten:'nguyen tien dat', gioiTinh: 'nam', diemTichLuy: 75, dichVuDangKy: 'B'},
+ {ten:'nguyen van quy', gioiTinh: 'nam', diemTichLuy: 55, dichVuDangKy: 'A'},
+{ten:'tran ngoc diep', gioiTinh: 'nu', diemTichLuy: 105, dichVuDangKy: 'B'},
+{ten:'lai the anh', gioiTinh: 'nam', diemTichLuy: 55, dichVuDangKy: 'C'},
+{ten:'tran thi ngoc tram', gioiTinh: 'nu', diemTichLuy: 65, dichVuDangKy: 'C'},
+]
+
+
+var dichVu = [
+{ten: 'A', khuyenMai: 0.2, giaTri:250},
+{ten: 'B', khuyenMai: 0.18, giaTri:210},
+{ten: 'C', khuyenMai: 0.15, giaTri:200},
+]
+
+
+var phiCuoc = [
+{tennuoc : 'Han Quoc',  giacuoc: 20},
+{tennuoc : 'UK',  giacuoc: 30},
+{tennuoc : 'US',  giacuoc: 29},
+{tennuoc : 'Canada',  giacuoc: 25},
+ ]
+
+var bienLai = [
+        {ten: 'nam', giaTri:300, diachiden: 'Han Quoc'},
+        {ten: 'hieu', giaTri:180, diachiden: 'UK'},
+        {ten: 'nam', giaTri:180, diachiden: 'US'},
+        {ten: 'tram', giaTri:180, diachiden: 'US'},
+        {ten: 'dat', giaTri:170, diachiden: 'Han Quoc'},
+        {ten: 'anh', giaTri:100, diachiden: 'UK'},
+        {ten: 'hieu', giaTri:180, diachiden: 'Han Quoc'},
+        {ten: 'lam', giaTri:200, diachiden: 'Han Quoc'},
+        {ten: 'quy', giaTri:210, diachiden: 'Canada'},
+        {ten: 'diep', giaTri:100, diachiden: 'US'},
+        {ten: 'huong', giaTri:100, diachiden: 'Canada'},
+    ]
+    
+
+
+3.1 Hãy in lại tên của các khách hàng sao cho có từ viết hoa ở mỗi chữ cái vd : Nguyen Van Nam
+3.2 Hãy in ra danh sách các khách hàng có khả năng đăng ký thẻ VIP với điều kiện điểm tích lũy lớn hơn 100 và dịch vụ đăng ký có giá trị lớn hơn 180
+3.3 Hãy in ra danh sách khách hàng theo dịch vụ mà từng người đăng ký  
+3.4 Hãy tính số tiền của mỗi khách hàng cần phải trả và hiện tất cả dưới dạng 1 array object với công th        ức  tiền khách hàng cần trả = giaTri*khuyenMai + cứ khi giá trị dạt 100 thì phải cộng thêm giacuoc tương đương với địa chỉ được gửi đến
+
+
+Bài 4: 
+var tenKhach = [
+    {ten: 'nguyen the su', gioBay: '11:30', diemDen: 'Nha Trang', veKhoang: 'S'}, 
+    {ten: 'ngo van khoai', gioBay: '9:30', diemDen: 'Ha Noi', veKhoang: 'A'}, 
+    {ten: 'tau dau hu', gioBay: '10:15', diemDen: 'Hai Phong', veKhoang: 'B'}, 
+    {ten: 'chuyen lua gat', gioBay: '13:30', diemDen: 'Nha Trang', veKhoang: 'C'}, 
+    {ten: 'le quan quy', gioBay: '14:30', diemDen: 'TP.HCM', veKhoang: 'A'}, 
+    {ten: 'hoang hao hoa', gioBay: '11:30', diemDen: 'Nam Dinh', veKhoang: 'B'}, 
+]
+
+
+var choNgoi = [
+    {ten: 'Ghe hang king', mave:'S'},
+    {ten: 'Ghe hang thuong gia', mave:'A'},
+    {ten: 'Ghe hang pho thong', mave:'B'},
+    {ten: 'Ghe hang pho cap', mave:'C'},
+]
+
+
+var lichBay = [
+    { gioBay: '11:30', diemDen:'Nha Trang', maMayBay: 'AB123' },
+    { gioBay: '13:30', diemDen:'Nha Trang', maMayBay: 'GD178' },
+    { gioBay: '11:30', diemDen:'Nam Dinh', maMayBay: 'BC452' },
+    { gioBay: '14:30', diemDen:'TP.HCM', maMayBay: 'GD73' },
+    { gioBay: '10:15', diemDen:'Hai Phong', maMayBay: 'FT351' },
+]
+
+
+4.1 Hãy in lại tên của các khách hàng sao cho có từ viết hoa ở mỗi chữ cái vd : Nguen Van Nam
+4.2 Hãy sắp xếp lại array khách theo thời gian bắt đầu chuyến bay theo chiều tăng dần
+4.3 Hãy in ra thông các chuyến bay cùng địa điểm 
+4.4 Hãy in ra thông tin của những người cùng giờ bay và cho thêm dữ kiện họ ngồi ghế gì, trên những chuyến bay nào
+4.5 Hãy in ra thông tin chi tiết của người bay vào 9h30 và có cả dữ liệu họ ngồi ghế ghì, trên những chuyến bay nào
+
+
+
+
+
+
+Bài 5: var data = [
+{name: ‘Nguyen Van Thai’, age: 11,},
+{name: ‘Hoang Manh Kien’, age: 10,},
+{name: ‘Pham ThuyLinh’, age: 12,},
+{name: ‘ Nguyen Ngoc Tung’, age: 11,},
+{name: ‘Vu Quang Thinh’, age: 17,},
+{name: ‘Nguyen Minh Thuan’, age: 13,},
+{name: ‘Nguyen Van Thai’, age: 15,},
+{name: ‘Hoang Manh Kien’, age: 10,},
+{name: ‘Pham ThuyLinh’, age: 12,},
+{name: ‘ Vu Ngoc Tung’, age: 11,},
+{name: ‘Le Quang Thinh’, age: 13,},
+{name: ‘Nguyen Minh Thuan’, age: 13,},
+{name: ‘Nguyen Van Thai’, age: 15,},
+{name: ‘Hoang Manh Kien’, age: 10,},
+{name: ‘Hoang ThuyLinh’, age: 12,},
+{name: ‘ Nguyen Ngoc Tung’, age: 11,},
+{name: ‘Le Quang Thinh’, age: 16,},
+{name: ‘Chu Minh Thuan’, age: 13,},
+]
+5.1 in ra các tên có tuổi băng nhau
+5.2 Giả sử một form đăng nhập yêu cầu nhập tên và tuổi, Nếu nhập đúng tên và tuổi thì đăng nhập thành công, nếu sai thì thêm vào mảng.
